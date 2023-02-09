@@ -14,12 +14,12 @@ int main()
     cout << "Press Ctrl + D on the keyboard when you are done.\n";
     cout << "\nEnter a sentence with repeated words: ";
     while (cin >> current) { // read a stream of words
-	++number_of_words; // increase word count
-        if (previous == current) // check if the word is the same as last
-		cout << "\nWord Number: " << number_of_words << "\nRepeated Word Detected: " << current << "\n";
-        
-	previous = current;
+      ++number_of_words; // increase word count
+      if (previous == current) // check if the word is the same as last
+        cout << "\nWord Number: " << number_of_words << "\nRepeated Word Detected: " << current << "\n";
+      
+      previous = current;
     }
-
-	return 0;
+    
+    return 0;
 }
