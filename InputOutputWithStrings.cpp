@@ -10,13 +10,10 @@ int main()
     string firstName, lastName;
     cout << "Enter your first name: ";
     cin >> firstName;
-    cout << "Enter your last name: ";
+    cout << "\nEnter your last name: ";
     cin >> lastName;
 
-    cout << "Hello, ";
-    cout << firstName << " ";
-    cout << lastName << "! ";
-    cout << "How are you?\n";
+    cout << "\nHello, " << firstName << " " << lastName << "! " << "How are you doing today?\n";
 
     return 0;
 }
