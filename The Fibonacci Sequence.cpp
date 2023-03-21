@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int fib(int n) {
+int Fib(int n) {
     int t1 = 1, t2 = 1, nextTerm = 0;
 
     if (n <= -1) {
@@ -39,7 +39,7 @@ int main() {
     cout << "Enter the number of terms: ";
     cin >> n;
     cout << "\nThe Fibonacci Sequence: ";
-    printf("\n", fib(n));
+    printf("\n", Fib(n));
     getchar();
     return 0;
 }
